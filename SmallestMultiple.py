@@ -34,7 +34,7 @@ def multPrimeFactors(factors):
     for j in factors:
         total *= j ** factors[j]
     return total
-#che
+
 allFactors = AllFactorCount(testNum)
 print("\n The list of all prime factors of all integers from 2 through", testNum, "is: ", allFactors)
 print("The smallest multiple of all of the integers from 2 through", testNum, "is:", multPrimeFactors(allFactors))
